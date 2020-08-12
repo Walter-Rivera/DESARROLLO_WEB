@@ -17,6 +17,7 @@ body{
 #encabezado_Tabla 
 {
     background: rgba(255, 255, 0); 
+    text-align: center;
     
 }
 
@@ -24,7 +25,7 @@ body{
 {
     color: black;
     background: rgba(255, 160, 122);
-    text-align: justify;
+    text-align: center;
 }
 
 #cuerpo_Tabla #curso
