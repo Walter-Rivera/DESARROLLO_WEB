@@ -5,14 +5,19 @@
     </head>
     <frameset>
         <h1>datos</h1>
-        <frameset rows="20%,16%,16%,16%,16%,16%" >
-            <frame src="frames/semestre1.html">
-            <frame src="frames/semestre2.html">
-            <frame src="frames/semestre3.html">
-            <frame src="frames/semestre4.html">
-            <frame src="frames/semestre5.html">
-    
+        <frameset rows="20%,*">
+            <frame src="../index.html">
+            <frameset rows="20%,20%,20%,20%,20%" cols="50%,*">
+                <frame src="semestre1.html">
+                <frame src="semestre2.html">
+                <frame src="semestre3.html">
+                <frame src="semestre4.html">
+                <frame src="semestre5.html">
+        
+            </frameset>
+
         </frameset>
+       
 
     </frameset>
    
